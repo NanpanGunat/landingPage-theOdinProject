@@ -1,3 +1,14 @@
-h1 {
-  color: red;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+header,
+footer {
+  background-color: #1f2937;
 }
